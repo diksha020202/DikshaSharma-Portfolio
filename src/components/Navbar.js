@@ -6,7 +6,7 @@ import logo from "../Assets/logo.png";
 import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
 import { CgGitFork } from "react-icons/cg";
-import { ImBlog } from "react-icons/im";
+import pdf1 from './dikshaaSharma.pdf'
 import {
   AiFillStar,
   AiOutlineHome,
@@ -14,7 +14,9 @@ import {
   AiOutlineUser,
 } from "react-icons/ai";
 
-import { CgFileDocument } from "react-icons/cg";
+const user={
+  resume:pdf1
+}
 
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
@@ -82,7 +84,11 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
 
-            <Nav.Item>
+            <div style={{ marginTop:"12px",marginLeft:"30px", marginRight:"30px"}}>
+              <a style={{ color:"white",  textDecoration: "none"}} href={user.resume}>Resume</a>
+            </div>
+
+            {/* <Nav.Item>
               <Nav.Link
                 as={Link}
                 to="/resume"
@@ -90,7 +96,7 @@ function NavBar() {
               >
                 <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
               </Nav.Link>
-            </Nav.Item>
+            </Nav.Item> */}
 
             {/* <Nav.Item>
               <Nav.Link
