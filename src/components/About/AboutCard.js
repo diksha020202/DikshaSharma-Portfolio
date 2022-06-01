@@ -10,7 +10,7 @@ function AboutCard() {
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple">Diksha Sharma </span>
             from <span className="purple"> Delhi, India.</span>
-            <br />I am a junior pursuing MBA in IT and Marketing and Full Stack Web Development course from Masai School.
+            <br />A Passionate aspiring Frontend Developer moulded and shaped by Masai school's intensive and immensive learning. Looking forward to join a company where I can contribute towards individual and company growth.
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
@@ -20,10 +20,10 @@ function AboutCard() {
               <ImPointRight /> Playing Games
             </li>
             <li className="about-activity">
-              <ImPointRight /> Writting Blogs
+              <ImPointRight /> Participating in extra curricular activities
             </li>
             <li className="about-activity">
-              <ImPointRight /> Travelling
+              <ImPointRight /> Cooking Food
             </li>
           </ul>
 
