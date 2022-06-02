@@ -26,8 +26,9 @@ function Projects() {
               imgPath={chatify}
               isBlog={false}
               title="Udemy Clone"
-              description="Udemy is a massively-open online course (M.O.O.C.) website where anyone is free to create and promote courses in the style of traditional post-secondary education. Users can also take courses to earn credit towards technical certification, or just to pick up or improve various job-related skills."
-              link="https://github.com/rushig777/Udemy-clone"
+              description="Udemy is a massively-open online course (M.O.O.C.) website where anyone is free to create and promote courses in the style of traditional post-secondary education. Users can also take courses to earn credit towards technical certification, or just to pick up or improve various job-related skills.
+              Tech Stack: Advance Javascript, HTML, CSS, Styled Components"
+              link="https://verdant-kitten-680f9d.netlify.app/"
             />
           </Col>
 
@@ -36,8 +37,9 @@ function Projects() {
               imgPath={bitsOfCode}
               isBlog={false}
               title="Dermstore Clone"
-              description="Dermstore is a skin care and beauty e-commerce site in the United States. Since December 2020, it is a subsidiary of The Hut Group which is a British e-commerce company."
-              link="https://github.com/Surya737673/DermStore"
+              description="Dermstore is a skin care and beauty e-commerce site in the United States. Since December 2020, it is a subsidiary of The Hut Group which is a British e-commerce company.
+              Tech Stack: ReactJS, React-Router, React-Redux, React-Thunk, Javascript, Bootstrap, Material Ui, Styled Components, CSS"
+              link="beamish-tartufo-8757f9.netlify.app/"
             />
           </Col>
 
@@ -46,8 +48,9 @@ function Projects() {
               imgPath={editor}
               isBlog={false}
               title="Amazon Prime Clone"
-              description="Amazon Prime is a paid subscription service from Amazon which is available in various countries and gives users access to additional services otherwise unavailable or available at a premium to other Amazon customers."
-              link="https://github.com/huzaifa621/primeVideoProject"
+              description="Amazon Prime is a paid subscription service from Amazon which is available in various countries and gives users access to additional services otherwise unavailable or available at a premium to other Amazon customers.
+              Tech Stack: HTML, CSS, JAVASCRIPT"
+              link="https://nervous-sammet-6ff0d4.netlify.app/"
             />
           </Col>
 
