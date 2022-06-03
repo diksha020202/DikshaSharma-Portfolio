@@ -3,6 +3,9 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import leaf from "../../Assets/Projects/leaf.png";
+import udemy from "../../Assets/Udemy.png"
+import dermstore from "../../Assets/Dermstore.png"
+import amaZon from "../../Assets/AmazonPrime.png"
 import emotion from "../../Assets/Projects/emotion.jpeg";
 import editor from "../../Assets/Projects/codeEditor.png";
 import chatify from "../../Assets/Projects/chatify.png";
@@ -23,34 +26,40 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={udemy}
               isBlog={false}
               title="Udemy Clone"
-              description="Udemy is a massively-open online course (M.O.O.C.) website where anyone is free to create and promote courses in the style of traditional post-secondary education. Users can also take courses to earn credit towards technical certification, or just to pick up or improve various job-related skills.
+              description="Udemy is a massively-open online course (M.O.O.C.) website where anyone is free to create and promote courses in the style of traditional post-secondary education. Users can also take courses to earn credit towards technical certification.
               Tech Stack: Advance Javascript, HTML, CSS, Styled Components"
               link="https://verdant-kitten-680f9d.netlify.app/"
+              Glink="https://github.com/rushig777/Udemy-clone"
+              
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={dermstore}
               isBlog={false}
               title="Dermstore Clone"
               description="Dermstore is a skin care and beauty e-commerce site in the United States. Since December 2020, it is a subsidiary of The Hut Group which is a British e-commerce company.
               Tech Stack: ReactJS, React-Router, React-Redux, React-Thunk, Javascript, Bootstrap, Material Ui, Styled Components, CSS"
-              link="beamish-tartufo-8757f9.netlify.app/"
+              link="https://unit-4-dermstore-project.netlify.app/"
+              Glink="https://github.com/Surya737673/DermStore"
             />
           </Col>
 
+          
+
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={amaZon}
               isBlog={false}
               title="Amazon Prime Clone"
-              description="Amazon Prime is a paid subscription service from Amazon which is available in various countries and gives users access to additional services otherwise unavailable or available at a premium to other Amazon customers.
+              description="Amazon Prime is a paid subscription service from Amazon which is available in various countries and gives users access to additional services otherwise unavailable or available at a premium to other Amazon customers. Best Entertainment website, all in one.
               Tech Stack: HTML, CSS, JAVASCRIPT"
               link="https://nervous-sammet-6ff0d4.netlify.app/"
+              Glink="https://github.com/huzaifa621/primeVideoProject"
             />
           </Col>
 
