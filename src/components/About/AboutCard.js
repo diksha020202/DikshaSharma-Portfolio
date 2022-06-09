@@ -10,7 +10,7 @@ function AboutCard() {
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple">Diksha Sharma </span>
             from <span className="purple"> Delhi, India.</span>
-            <br />A Passionate aspiring Frontend Developer moulded and shaped by Masai school's intensive and immensive learning. Looking forward to join a company where I can contribute towards individual and company growth.
+            <br />A Passionate aspiring Frontend Developer. Looking forward to join a company where I can contribute towards individual and company growth.
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
